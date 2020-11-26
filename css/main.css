@@ -1,0 +1,48 @@
+body {
+    background: #ebeeef;
+}
+
+.signin_container .upper {
+    margin-top:4rem;
+    background-image: url("../res/mmwf_hero.jpg");
+    background-size: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding:2rem;
+}
+
+.signin_container .lower {
+    background: #fff;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding:2rem;
+}
+
+.signin_container .lower > input,
+.signin_container .lower > a {
+    margin-bottom:1rem;
+}
+
+h1{
+    margin-bottom:2rem;
+}
+
+.content_container {
+    background:#fff;
+    padding:2rem;
+}
+
+.nav {
+    margin-left:1rem;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #fff;
+    color:#000;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius:0;
+} 
+
+.inductee_name {
+    font-size:2rem;
+}
